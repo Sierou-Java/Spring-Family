@@ -1,0 +1,17 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta content="text/html;charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+</head>
+<body>
+
+<form th:action="@{/fdfs/file/upload}" enctype="multipart/form-data" th:method="post">
+    上传用户：<input type="text" name="username"/><br/>
+    上传文件1：<input type="file" name="file"/><br/>
+    <input type="submit" value="提交"/>
+</form>
+
+</body>
+</html>

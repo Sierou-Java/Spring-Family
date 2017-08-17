@@ -13,6 +13,10 @@
         <module>Spring-Family-Service</module>
         <module>Spring-Family-Batch</module>
         <module>Spring-Family-Demo</module>
+        <module>Spring-Family-Redis</module>
+        <module>Spring-Family-Test</module>
+        <module>Spring-Family-Security</module>
+        <module>Spring-Family-FastDFS</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -36,6 +40,12 @@
         <java.version>1.8</java.version>
         <spring.boot.version>1.5.1.RELEASE</spring.boot.version>
         <mysql.version>5.1.32</mysql.version>
+        <druid.version>1.0.18</druid.version>
+        <fastjson.version>1.2.31</fastjson.version>
+        <fastdfs.version>1.27-SNAPSHOT</fastdfs.version>
+        <common-lang3.version>3.4</common-lang3.version>
+        <servlet.version>3.1.0</servlet.version>
+        <commons-lang.version>2.6</commons-lang.version>
     </properties>
 
     <dependencyManagement>
@@ -68,6 +78,48 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <!-- fastdfs -->
+            <dependency>
+                <groupId>org.csource</groupId>
+                <artifactId>fastdfs-client-java</artifactId>
+                <version>${fastdfs.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${common-lang3.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${servlet.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>${commons-lang.version}</version>
             </dependency>
 
         </dependencies>
