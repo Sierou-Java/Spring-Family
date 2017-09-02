@@ -40,7 +40,8 @@ public class RestTemplateConfig {
                 iterator.remove();
             }
         }
-        messageConverters.add(new StringHttpMessageConverter(Charset.forName("UTF-8")));
+//        messageConverters.add(new StringHttpMessageConverter(Charset.forName("UTF-8")));
+        messageConverters.add(new StringHttpMessageConverter(Charset.forName("gb2312")));
         return restTemplate;
     }
 

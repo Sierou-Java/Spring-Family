@@ -86,7 +86,6 @@ public class IDUtils {
 		//s = "0000" + s;
 		//s = s.substring(s.length() - 4, s.length());
 		//System.out.println(s);
-
 		System.out.println(genOrderItemId());
 	}
 }

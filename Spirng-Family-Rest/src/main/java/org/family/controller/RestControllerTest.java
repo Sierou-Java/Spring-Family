@@ -1,21 +1,24 @@
 package org.family.controller;
 
 import com.alibaba.fastjson.JSONObject;
+import javafx.print.Printer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URL;
 
 /**
  * @Author 王洪悦.{javayue@yeah.net}
  * @Create 2017-08-10 上午10:44
  */
 
-@RestController
+@Controller
 public class RestControllerTest {
 
     static final String URL = "http://localhost:8080/restful";

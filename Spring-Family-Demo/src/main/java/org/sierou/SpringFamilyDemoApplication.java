@@ -5,36 +5,37 @@ import org.sierou.aop.service.AopService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.PostConstruct;
 
-@SpringBootApplication
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
 @RestController
-
 public class SpringFamilyDemoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringFamilyDemoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringFamilyDemoApplication.class, args);
+    }
 
-	@Autowired
-	private AopService aopService;
+    @Autowired
+    private AopService aopService;
 
-	@GetMapping(value = "/hello/{name}")
-	@ResponseBody
-	public String hello(@PathVariable(value = "name") String name){
-		aopService.testControLog("name : " + name);
-		return "hello world!" + name;
-	}
+    @GetMapping(value = "/hello/{name}")
+    @ResponseBody
+    public String hello(@PathVariable(value = "name") String name) {
+        aopService.testControLog("name : " + name);
+        return "hello world!" + name;
+    }
 
-	@PostConstruct
-	void init(){
-		System.out.println("**** init spring boot ****");
-	}
+    @PostConstruct
+    void init() {
+        System.out.println("**** init spring boot ****");
+    }
 
-	@ControLog
-	public void annoTest(){
-		System.out.println("SpringFamilyDemoApplication.annoTest");
-	}
+    @ControLog
+    public void annoTest() {
+        System.out.println("SpringFamilyDemoApplication.annoTest");
+    }
 }

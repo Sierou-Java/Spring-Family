@@ -28,8 +28,11 @@ public class LogAspect {
 
     // 定义切点
     @Pointcut("@annotation(org.sierou.aop.annotation.ControLog)")
-    // "execution(* com.sierou.service..*(..)) && @annotation(xxx)"
+    // "execution(* com.sierou.repository..*(..)) && @annotation(xxx)"
     private void pointCut(){};
+
+
+//    @Pointcut("@execution(public org.family.result *(..))")
 
     // 环绕通知
     @Around("pointCut()")
