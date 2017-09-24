@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:reg="http://www.dangdang.com/schema/ddframe/reg"
+       xmlns:job="http://www.dangdang.com/schema/ddframe/job"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context.xsd
+                        http://www.dangdang.com/schema/ddframe/reg
+                        http://www.dangdang.com/schema/ddframe/reg/reg.xsd
+                        http://www.dangdang.com/schema/ddframe/job
+                        http://www.dangdang.com/schema/ddframe/job/job.xsd
+                        ">
+    <!-- context:component-scan base-package="com.dangdang.example.elasticjob" /-->
+
+    <context:property-placeholder location="classpath:elastic-job/elastic-job.properties" />
+
+    <reg:zookeeper id="regCenter" server-lists="${serverLists}" namespace="${namespace}" base-sleep-time-milliseconds="${baseSleepTimeMilliseconds}" max-sleep-time-milliseconds="${maxSleepTimeMilliseconds}" max-retries="${maxRetries}" />
+
+    <!-- 分片 	-->
+    <!--<job:simple id="springFamilySimpleJob"-->
+                <!--class="${springFamilySimpleJob.class}"-->
+                <!--registry-center-ref="regCenter"-->
+                <!--sharding-total-count="${springFamilySimpleJob.shardingTotalCount}"-->
+                <!--cron="${springFamilySimpleJob.cron}"-->
+                <!--sharding-item-parameters="${springFamilySimpleJob.shardingItemParameters}"-->
+                <!--monitor-execution="${springFamilySimpleJob.monitorExecution}"-->
+                <!--failover="${springFamilySimpleJob.failover}"-->
+                <!--description="${springFamilySimpleJob.description}"-->
+                <!--disabled="${springFamilySimpleJob.disabled}"-->
+                <!--overwrite="${springFamilySimpleJob.overwrite}"/>-->
+    <!-- 单片 -->
+    <job:simple id="springFamilySingleJob"
+                class="${springFamilySingleJob.class}"
+                registry-center-ref="regCenter"
+                sharding-total-count="${springFamilySingleJob.shardingTotalCount}"
+                cron="${springFamilySingleJob.cron}"
+                sharding-item-parameters="${springFamilySingleJob.shardingItemParameters}"
+                monitor-execution="${springFamilySingleJob.monitorExecution}"
+                failover="${springFamilySingleJob.failover}"
+                description="${springFamilySingleJob.description}"
+                disabled="${springFamilySingleJob.disabled}"
+                overwrite="${springFamilySingleJob.overwrite}"/>
+</beans>

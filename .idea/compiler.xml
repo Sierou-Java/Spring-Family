@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spirng-Family-Rest" />
+        <module name="Spring-Family-AOP" />
+        <module name="Spring-Family-Batch" />
+        <module name="Spring-Family-Boot" />
+        <module name="Spring-Family-Common" />
+        <module name="Spring-Family-Demo" />
+        <module name="Spring-Family-Docker" />
+        <module name="spring-family-elastic-job" />
+        <module name="Spring-Family-Elastic-Job" />
+        <module name="Spring-Family-Elastic-Job-Lite" />
+        <module name="Spring-Family-FastDFS" />
+        <module name="spring-family-fastdfs" />
+        <module name="Spring-Family-Jpa" />
+        <module name="spring-family-jpa" />
+        <module name="Spring-Family-Kyro" />
+        <module name="Spring-Family-PO" />
+        <module name="Spring-Family-RabbitMQ" />
+        <module name="spring-family-redis" />
+        <module name="Spring-Family-Redis" />
+        <module name="Spring-Family-Security" />
+        <module name="spring-family-security" />
+        <module name="Spring-Family-Service" />
+        <module name="Spring-Family-Service-Api" />
+        <module name="Spring-Family-Shiro" />
+        <module name="spring-family-test" />
+        <module name="Spring-Family-Test" />
+        <module name="Spring-Family-VO" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="Spirng-Family-Rest" target="1.8" />
+      <module name="Spring-Family" target="1.8" />
+      <module name="Spring-Family-AOP" target="1.8" />
+      <module name="Spring-Family-Batch" target="1.8" />
+      <module name="Spring-Family-Boot" target="1.8" />
+      <module name="Spring-Family-Common" target="1.8" />
+      <module name="Spring-Family-Demo" target="1.8" />
+      <module name="Spring-Family-Docker" target="1.8" />
+      <module name="spring-family-elastic-job" target="1.7" />
+      <module name="Spring-Family-Elastic-Job" target="1.7" />
+      <module name="Spring-Family-Elastic-Job-Lite" target="1.7" />
+      <module name="Spring-Family-FastDFS" target="1.8" />
+      <module name="Spring-Family-Jpa" target="1.8" />
+      <module name="Spring-Family-Kyro" target="1.8" />
+      <module name="Spring-Family-PO" target="1.8" />
+      <module name="Spring-Family-RabbitMQ" target="1.8" />
+      <module name="Spring-Family-Redis" target="1.8" />
+      <module name="Spring-Family-Security" target="1.8" />
+      <module name="Spring-Family-Service" target="1.8" />
+      <module name="Spring-Family-Service-Api" target="1.8" />
+      <module name="Spring-Family-Shiro" target="1.8" />
+      <module name="Spring-Family-Test" target="1.8" />
+      <module name="Spring-Family-VO" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

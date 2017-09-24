@@ -12,13 +12,17 @@
         <module>Spirng-Family-Rest</module>
         <module>Spring-Family-Service</module>
         <module>Spring-Family-Batch</module>
-        <module>Spring-Family-Demo</module>
+        <module>Spring-Family-AOP</module>
         <module>Spring-Family-Redis</module>
         <module>Spring-Family-Test</module>
         <module>Spring-Family-Security</module>
         <module>Spring-Family-FastDFS</module>
         <module>Spring-Family-Jpa</module>
         <module>Spring-Family-Shiro</module>
+        <module>Spring-Family-RabbitMQ</module>
+        <module>Spring-Family-Docker</module>
+        <module>Spring-Family-Boot</module>
+        <module>Spring-Family-Elastic-Job-Lite</module>
     </modules>
 
     <packaging>pom</packaging>

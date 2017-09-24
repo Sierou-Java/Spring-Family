@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spirng-Family-Rest/Spirng-Family-Rest.iml" filepath="$PROJECT_DIR$/Spirng-Family-Rest/Spirng-Family-Rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Family.iml" filepath="$PROJECT_DIR$/.idea/Spring-Family.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-AOP/Spring-Family-AOP.iml" filepath="$PROJECT_DIR$/Spring-Family-AOP/Spring-Family-AOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Batch/Spring-Family-Batch.iml" filepath="$PROJECT_DIR$/Spring-Family-Batch/Spring-Family-Batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Boot/Spring-Family-Boot.iml" filepath="$PROJECT_DIR$/Spring-Family-Boot/Spring-Family-Boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Common/Spring-Family-Common.iml" filepath="$PROJECT_DIR$/Spring-Family-Common/Spring-Family-Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Docker/Spring-Family-Docker.iml" filepath="$PROJECT_DIR$/Spring-Family-Docker/Spring-Family-Docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/Spring-Family-Elastic-Job-Lite.iml" filepath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/Spring-Family-Elastic-Job-Lite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-FastDFS/Spring-Family-FastDFS.iml" filepath="$PROJECT_DIR$/Spring-Family-FastDFS/Spring-Family-FastDFS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Jpa/Spring-Family-Jpa.iml" filepath="$PROJECT_DIR$/Spring-Family-Jpa/Spring-Family-Jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Kyro/Spring-Family-Kyro.iml" filepath="$PROJECT_DIR$/Spring-Family-Kyro/Spring-Family-Kyro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-PO/Spring-Family-PO.iml" filepath="$PROJECT_DIR$/Spring-Family-PO/Spring-Family-PO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-RabbitMQ/Spring-Family-RabbitMQ.iml" filepath="$PROJECT_DIR$/Spring-Family-RabbitMQ/Spring-Family-RabbitMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Redis/Spring-Family-Redis.iml" filepath="$PROJECT_DIR$/Spring-Family-Redis/Spring-Family-Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Security/Spring-Family-Security.iml" filepath="$PROJECT_DIR$/Spring-Family-Security/Spring-Family-Security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Service/Spring-Family-Service.iml" filepath="$PROJECT_DIR$/Spring-Family-Service/Spring-Family-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Service-Api/Spring-Family-Service-Api.iml" filepath="$PROJECT_DIR$/Spring-Family-Service-Api/Spring-Family-Service-Api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Shiro/Spring-Family-Shiro.iml" filepath="$PROJECT_DIR$/Spring-Family-Shiro/Spring-Family-Shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Test/Spring-Family-Test.iml" filepath="$PROJECT_DIR$/Spring-Family-Test/Spring-Family-Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-VO/Spring-Family-VO.iml" filepath="$PROJECT_DIR$/Spring-Family-VO/Spring-Family-VO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/spring-family-elastic-job.iml" filepath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/spring-family-elastic-job.iml" />
+    </modules>
+  </component>
+</project>
