@@ -23,6 +23,9 @@
         <module>Spring-Family-Docker</module>
         <module>Spring-Family-Boot</module>
         <module>Spring-Family-Elastic-Job-Lite</module>
+        <module>Spring-Family-Thymeleaf</module>
+        <module>Spring-Family-Mongo</module>
+        <module>Spring-Family-Async</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -35,7 +38,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.1.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent fdaotory -->
     </parent>
 
 
@@ -145,10 +148,10 @@
     </build>
 
     <!--<repositories>-->
-        <!--<repository>-->
+        <!--<daotory>&ndash;&gt;-->
             <!--<id>spring-releases</id>-->
             <!--<url>https://repo.spring.io/libs-release</url>-->
-        <!--</repository>-->
+        <!--<!daotory>&ndash;&gt;-->
     <!--</repositories>-->
     <!--<pluginRepositories>-->
         <!--<pluginRepository>-->
@@ -158,11 +161,11 @@
     <!--</pluginRepositories>-->
 
     <!--<dwistributionManagement>-->
-        <!--<repository>-->
+        <!--<daotory>&ndash;&gt;-->
             <!--<id>releases</id>-->
             <!--<name>Nexus Release Repository</name>-->
             <!--<url>http://47.94.229.22：9051/nexus/content/repositories/releases/</url>-->
-        <!--</repository>-->
+        <!--<!daotory>-->
         <!--<snapshotRepository>-->
             <!--<id>snapshots</id>-->
             <!--<name>Nexus Snapshot Repository</name>-->
