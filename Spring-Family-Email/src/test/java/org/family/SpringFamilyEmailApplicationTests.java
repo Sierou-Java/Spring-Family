@@ -35,7 +35,7 @@ public class SpringFamilyEmailApplicationTests {
         Context context = new Context();
         context.setVariable("code", "6666");
         String emailContent = templateEngine.process("email", context);
-        Boolean flag = mailService.sendEmail(emailContent, to, subject);
+        Boolean flag = mailService.sendHtmlEmail(emailContent, to, subject);
         System.out.println(flag);
     }
 
