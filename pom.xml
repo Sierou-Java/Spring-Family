@@ -27,6 +27,8 @@
         <module>Spring-Family-Mongo</module>
         <module>Spring-Family-Async</module>
         <module>Spring-Family-Email</module>
+        <module>Spring-Family-Mybatis-Automatic</module>
+        <module>Spring-Family-Mybatis</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -49,6 +51,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring.boot.version>1.5.1.RELEASE</spring.boot.version>
+        <mybaitsplus.version>2.0.5</mybaitsplus.version>
         <mysql.version>5.1.32</mysql.version>
         <druid.version>1.0.18</druid.version>
         <fastjson.version>1.2.31</fastjson.version>
@@ -81,6 +84,13 @@
                 <artifactId>spring-boot-starter-test</artifactId>
                 <version>${spring.boot.version}</version>
                 <scope>test</scope>
+            </dependency>
+
+            <!-- Mybatis-Plus -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
+                <version>${mybaitsplus.version}</version>
             </dependency>
 
             <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
