@@ -29,6 +29,7 @@
         <module>Spring-Family-Email</module>
         <module>Spring-Family-Mybatis-Automatic</module>
         <module>Spring-Family-Mybatis</module>
+        <module>Spring-Family-Sign</module>
     </modules>
 
     <packaging>pom</packaging>
