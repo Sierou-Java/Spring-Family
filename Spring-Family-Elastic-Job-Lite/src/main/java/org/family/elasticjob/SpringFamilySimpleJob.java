@@ -19,11 +19,14 @@ public class SpringFamilySimpleJob implements SimpleJob{
     public void execute(ShardingContext shardingContext) {
         System.out.println("分片总数：" + shardingContext.getShardingTotalCount());
         System.out.println("分片：" + shardingContext.getShardingItem());
+        System.out.println("参数shardingParameter：" + shardingContext.getShardingParameter());
+        System.out.println("参数getJobParameter" + shardingContext.getJobParameter());
 
-        System.out.println("=========================");
 
         a++;
 
         System.out.println("a = " + a);
+        System.out.println("=========================");
+
     }
 }

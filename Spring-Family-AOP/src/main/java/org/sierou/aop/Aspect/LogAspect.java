@@ -28,7 +28,7 @@ public class LogAspect {
 
     // 定义切点
     @Pointcut("@annotation(org.sierou.aop.annotation.ControLog)")
-    // "execution(* com.sierou.repository..*(..)) && @annotation(xxx)"
+    // "execution(* com.sierou.dao..*(..)) && @annotation(xxx)"
     private void pointCut(){};
 
 

@@ -512,4 +512,26 @@ public class User {
     public void setLastLoginTime(String lastLoginTime) {
         this.lastLoginTime = lastLoginTime == null ? null : lastLoginTime.trim();
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", salt='" + salt + '\'' +
+                ", headPic='" + headPic + '\'' +
+                ", mobile='" + mobile + '\'' +
+                ", cardid='" + cardid + '\'' +
+                ", sex='" + sex + '\'' +
+                ", email='" + email + '\'' +
+                ", isLocked='" + isLocked + '\'' +
+                ", isDelete='" + isDelete + '\'' +
+                ", creatUserId=" + creatUserId +
+                ", creatTime='" + creatTime + '\'' +
+                ", editUserId=" + editUserId +
+                ", editTime='" + editTime + '\'' +
+                ", lastLoginTime='" + lastLoginTime + '\'' +
+                '}';
+    }
 }

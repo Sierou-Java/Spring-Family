@@ -4,14 +4,20 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spirng-Family-Rest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-AOP" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Family-Async" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-Batch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-Boot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-Common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-Docker" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Family-Email" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-FastDFS" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Family-Java8" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-Jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-Kyro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Family-Mongo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Family-Mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Family-Mybatis-Automatic" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-PO" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-RabbitMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-Redis" charset="UTF-8" />
@@ -19,7 +25,9 @@
     <file url="file://$PROJECT_DIR$/Spring-Family-Service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-Service-Api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-Shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Family-Sign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-Test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Family-Thymeleaf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Family-VO" charset="UTF-8" />
   </component>
 </project>

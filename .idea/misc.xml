@@ -11,6 +11,14 @@
         <option value="$PROJECT_DIR$/Spring-Family-Service-Api/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-Family-Kyro/pom.xml" />
         <option value="$PROJECT_DIR$/spring-family-elastic-job/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mongdo/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Async/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Email/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis-Automatic/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-family-sign/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Java8/pom.xml" />
       </list>
     </option>
   </component>

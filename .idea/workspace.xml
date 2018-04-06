@@ -1,8 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="895ec111-4e8d-4159-98fd-98f8ecab376e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/resources/elastic-job/elastic-job.properties" afterPath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/resources/elastic-job/elastic-job.properties" />
+    <list default="true" id="895ec111-4e8d-4159-98fd-98f8ecab376e" name="Default" comment="commit RSA by sierou 🍪">
+      <change afterPath="$PROJECT_DIR$/Spring-Family-Email/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Family-Sign/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Spring_Family_Batch_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_Family_Batch_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dangdang_elastic_job_common_core_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dangdang_elastic_job_lite_core_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dangdang_elastic_job_lite_spring_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_batch_spring_batch_infrastructure_3_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_4_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/Aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/Aspect/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/Aspect/ResultAspect.aj" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/Aspect/ResultAspect.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/JdkProxy/JDKProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/JdkProxy/JDKProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Batch/Spring-Family-Batch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Batch/Spring-Family-Batch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Common/Spring-Family-Common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Common/Spring-Family-Common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Common/src/main/java/org/family/common/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Common/src/main/java/org/family/common/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Common/src/main/java/org/family/common/FastDFSClientUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Common/src/main/java/org/family/common/FastDFSClientUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Docker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Docker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/java/org/family/elasticjob/SpringFamilySimpleJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/java/org/family/elasticjob/SpringFamilySimpleJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/java/org/family/elasticjob/SpringFamilySingleJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/java/org/family/elasticjob/SpringFamilySingleJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/resources/elastic-job/elastic-job.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/resources/elastic-job/elastic-job.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/resources/elastic-job/elastic-job.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/resources/elastic-job/elastic-job.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Email/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Email/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Kyro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Kyro/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/mapper/MotorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/mapper/MotorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/resources/org/family/mapper/MotorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/resources/org/family/mapper/MotorMapper.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Mybatis/src/test/java/org/family/SpringFamilyMybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Mybatis/src/test/java/org/family/SpringFamilyMybatisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-PO/Spring-Family-PO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-PO/Spring-Family-PO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-RabbitMQ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-RabbitMQ/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Redis/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Redis/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Redis/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Redis/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Redis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Redis/src/test/java/org/sierou/SpringFamilyRedisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Redis/src/test/java/org/sierou/SpringFamilyRedisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Shiro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Shiro/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Family-Test/src/test/java/org/sierou/SpringFamilyTestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Family-Test/src/test/java/org/sierou/SpringFamilyTestApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring-Family-Rest/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Spring-Family-Redis/target/" />
     <ignored path="$PROJECT_DIR$/Spring-Family-PO/target/" />
@@ -26,6 +136,15 @@
     <ignored path="$PROJECT_DIR$/Spring-Family-AOP/target/" />
     <ignored path="$PROJECT_DIR$/spring-family-elastic-job/target/" />
     <ignored path="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/target/" />
+    <ignored path="$PROJECT_DIR$/Spring-Family-Thymeleaf/target/" />
+    <ignored path="$PROJECT_DIR$/Spring-Family-Mongdo/target/" />
+    <ignored path="$PROJECT_DIR$/Spring-Family-Mongo/target/" />
+    <ignored path="$PROJECT_DIR$/Spring-Family-Async/target/" />
+    <ignored path="$PROJECT_DIR$/Spring-Family-Email/target/" />
+    <ignored path="$PROJECT_DIR$/Spring-Family-Mybatis-Automatic/target/" />
+    <ignored path="$PROJECT_DIR$/Spring-Family-Mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/spring-family-sign/target/" />
+    <ignored path="$PROJECT_DIR$/Spring-Family-Java8/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,25 +152,74 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FastDFSClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Family-FastDFS/src/main/java/org/sierou/fastdfs/FastDFSClient.java">
+      <file leaf-file-name="SpringFamilyRedisApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/src/main/java/org/sierou/SpringFamilyRedisApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="152">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="51" />
+              <folding>
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elastic-job.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/resources/elastic-job/elastic-job.properties">
+      <file leaf-file-name="SpringFamilyRedisApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/src/test/java/org/sierou/SpringFamilyRedisApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="418">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisLock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/src/main/java/org/sierou/redis/RedisLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1838">
+              <caret line="136" column="63" selection-start-line="136" selection-start-column="63" selection-end-line="136" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestPO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-Family-PO/src/main/java/org/family/test/TestPO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,6 +229,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
@@ -69,49 +239,72 @@
     <findStrings>
       <find>simpleJob</find>
       <find>doPosStlNewJob</find>
+      <find>log</find>
+      <find>debug</find>
     </findStrings>
     <replaceStrings>
       <replace>springFamilySimpleJob</replace>
       <replace>springFamilySingleJob</replace>
+      <replace>info</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Spring-Family-RabbitMQ/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring-Family-RabbitMQ/src/main/java/org/family/config/RabbitMQ.java" />
-        <option value="$PROJECT_DIR$/Spring-Family-RabbitMQ/src/main/java/org/family/SpringFamilyRabbitmqApplication.java" />
-        <option value="$PROJECT_DIR$/Spring-Family-RabbitMQ/src/main/java/org/family/config/RabbitMQConfig.java" />
-        <option value="$PROJECT_DIR$/Spring-Family-RabbitMQ/src/main/java/org/family/rabbitmq/HelloSender1.java" />
-        <option value="$PROJECT_DIR$/Spring-Family-RabbitMQ/src/main/java/org/family/controller/RabbitMQController.java" />
-        <option value="$PROJECT_DIR$/Spring-Family-RabbitMQ/src/main/java/org/family/rabbitmq/HelloReceiver1.java" />
-        <option value="$PROJECT_DIR$/Spring-Family-RabbitMQ/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Spring-Family-Email/src/main/resources/templates/email.html" />
+        <option value="$PROJECT_DIR$/Spring-Family-Email/src/main/java/org/family/service/MailService.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Email/src/main/java/org/family/service/impl/MainServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Email/src/test/java/org/family/SpringFamilyEmailApplicationTests.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Email/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Spring-Family-Redis/src/main/java/org/sierou/SpringFamilyRedisApplication.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis-Automatic/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis-Automatic/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis-Automatic/src/test/java/org/family/SpringFamilyMybatisAutomaticApplicationTests.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/config/MasterDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/SpringFamilyMybatisApplication.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/pojo/MotorKey.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/resources/generatorConfigExample.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/pojo/Motor.java" />
+        <option value="$PROJECT_DIR$/Spirng-Family-Rest/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Spring-Family-Test/src/main/java/org/sierou/aop/common/A.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Test/src/main/java/org/sierou/aop/common/B.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/mapper/MotorMapper.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/src/test/java/org/family/SpringFamilyMybatisApplicationTests.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/pojo/User.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mybatis/src/main/java/org/family/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-AOP/src/test/java/org/sierou/ProxyService.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-AOP/src/test/java/org/sierou/ProxyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-AOP/src/test/java/org/sierou/JdkProxy.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-AOP/src/test/java/org/sierou/FactoryProxy.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-AOP/src/test/java/org/sierou/ProxyFactory.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-AOP/src/test/java/org/sierou/ProxyTest.java" />
+        <option value="$PROJECT_DIR$/spring-family-sign/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Sign/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Sign/src/main/java/org/sierou/sign/service/SignService.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Sign/src/main/java/org/sierou/sign/impl/SignServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Sign/src/main/java/org/sierou/sign/utils/SignUtils.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Test/src/main/java/org/sierou/SpringFamilyTestApplication.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Test/src/test/java/org/sierou/SpringFamilyTestApplicationTests.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Java8/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Java8/src/main/java/org/family/SpringFamilyJava8Application.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Docker/src/main/java/org/family/SpringFamilyDockerApplication.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Common/src/main/java/org/family/common/FastDFSClientUtils.java" />
         <option value="$PROJECT_DIR$/Spring-Family-Common/src/main/java/org/family/common/DateUtils.java" />
-        <option value="$PROJECT_DIR$/Spring-Family-Redis/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/Spring-Family-Demo/src/main/resources/Logback.xml" />
-        <option value="$PROJECT_DIR$/Spring-Family-Demo/src/main/java/org/sierou/SpringFamilyDemoApplication.java" />
-        <option value="$PROJECT_DIR$/Spring-Family-Demo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/Spring-Family-Demo/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-family-elastic-job/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring-Family-Elastic-Job/src/main/resources/elastic-job/elastic-job.xml" />
-        <option value="$PROJECT_DIR$/Spring-Family-Elastic-Job/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mongo/src/main/java/org/family/mongo/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Mongo/src/main/java/org/family/mongo/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Redis/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/java/org/family/elasticjob/springFamilySimpleJob.java" />
-        <option value="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/java/org/family/elasticjob/controller/JobController.java" />
-        <option value="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/java/org/family/SpringFamilyElasticJobApplication.java" />
-        <option value="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/java/org/family/elasticjob/SpringFamilySimpleJob.java" />
-        <option value="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/resources/elastic-job/elastic-job.xml" />
-        <option value="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/java/org/family/elasticjob/SpringFamilySingleJob.java" />
-        <option value="$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/resources/elastic-job/elastic-job.properties" />
+        <option value="$PROJECT_DIR$/Spring-Family-Redis/src/main/java/org/sierou/redis/RedisLock.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Redis/src/test/java/org/sierou/SpringFamilyRedisApplicationTests.java" />
+        <option value="$PROJECT_DIR$/Spring-Family-Redis/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -124,7 +317,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="userSettingsFile" value="/tools/apache-maven-3.3.9/conf/settings.xml" />
+        <option name="userSettingsFile" value="/tools/apache-maven-3.3.9/conf/localsettings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -134,7 +327,10 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
@@ -148,158 +344,119 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
+    <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
-      <sortByType />
-      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family-Elastic-Job-Lite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family-Elastic-Job-Lite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family-Elastic-Job-Lite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family-Elastic-Job-Lite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elastic-job" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring-Family-Elastic-Job-Lite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="Spring-Family" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Family" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Family" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Family" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring-Family-Redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Family" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Family" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring-Family-Redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Family" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Family" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring-Family-Redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Family" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Family" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring-Family-Redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Family" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Family" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring-Family-Redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sierou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Family" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Family" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring-Family-Redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Family" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Family" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring-Family-Redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Family" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Family" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring-Family-Redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Family" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Family" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring-Family-Redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sierou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Family" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Family" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring-Family-Redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sierou" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringFamilyRedisApplicationTests" type="1a9f42e2:ClassTreeNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Spring-Family-Redis/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -318,39 +475,268 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringFamilyElasticJobApplication">
-    <configuration default="false" name="SpringFamilyRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+  <component name="RunManager" selected="JUnit.SpringFamilyRedisApplicationTests.contextLoads">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sierou.ProxyTest" />
+      <module name="Spring-Family-AOP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.sierou.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sierou.SpringFamilyRedisApplication" />
-      <module name="Spring-Family-Redis" />
-      <envs />
-      <method />
     </configuration>
-    <configuration default="false" name="SpringFamilyElasticJobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="SpringFamilyTestApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sierou.SpringFamilyTestApplicationTests" />
+      <module name="Spring-Family-Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sierou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration name="SpringFamilyMybatisApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Family-Mybatis" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.family.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyElasticJobApplication" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <module name="Spring-Family-Elastic-Job-Lite" />
-      <envs />
-      <method />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.family" />
+      <option name="MAIN_CLASS_NAME" value="org.family.SpringFamilyMybatisApplicationTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method />
+    <configuration name="SpringFamilyMybatisApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Family-Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.family.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.family" />
+      <option name="MAIN_CLASS_NAME" value="org.family.SpringFamilyMybatisApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SpringFamilyRedisApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Family-Redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sierou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.sierou" />
+      <option name="MAIN_CLASS_NAME" value="org.sierou.SpringFamilyRedisApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SpirngFamilyRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spirng-Family-Rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpirngFamilyRestApplication" />
+    </configuration>
+    <configuration name="SpringFamilyAsyncApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Async" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyAsyncApplication" />
+    </configuration>
+    <configuration name="SpringFamilyBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyBootApplication" />
+    </configuration>
+    <configuration name="SpringFamilyDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sierou.SpringFamilyDemoApplication" />
+    </configuration>
+    <configuration name="SpringFamilyDockerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Docker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyDockerApplication" />
+    </configuration>
+    <configuration name="SpringFamilyElasticJobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Elastic-Job-Lite" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyElasticJobApplication" />
+    </configuration>
+    <configuration name="SpringFamilyEmailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Email" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyEmailApplication" />
+    </configuration>
+    <configuration name="SpringFamilyFastdfsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-FastDFS" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sierou.SpringFamilyFastdfsApplication" />
+    </configuration>
+    <configuration name="SpringFamilyJava8Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Java8" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyJava8Application" />
+    </configuration>
+    <configuration name="SpringFamilyJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Jpa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyJpaApplication" />
+    </configuration>
+    <configuration name="SpringFamilyKyroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Kyro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyKyroApplication" />
+    </configuration>
+    <configuration name="SpringFamilyMongdoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Mongo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.mongo.SpringFamilyMongdoApplication" />
+    </configuration>
+    <configuration name="SpringFamilyMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyMybatisApplication" />
+    </configuration>
+    <configuration name="SpringFamilyMybatisAutomaticApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Mybatis-Automatic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyMybatisAutomaticApplication" />
+    </configuration>
+    <configuration name="SpringFamilyRabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-RabbitMQ" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyRabbitmqApplication" />
+    </configuration>
+    <configuration name="SpringFamilyRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sierou.SpringFamilyRedisApplication" />
+    </configuration>
+    <configuration name="SpringFamilySecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sierou.SpringFamilySecurityApplication" />
+    </configuration>
+    <configuration name="SpringFamilyServiceApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Service-Api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyServiceApiApplication" />
+    </configuration>
+    <configuration name="SpringFamilyServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyServiceApplication" />
+    </configuration>
+    <configuration name="SpringFamilyShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Shiro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyShiroApplication" />
+    </configuration>
+    <configuration name="SpringFamilySignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-family-sign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sierou.SpringFamilySignApplication" />
+    </configuration>
+    <configuration name="SpringFamilyTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sierou.SpringFamilyTestApplication" />
+    </configuration>
+    <configuration name="SpringFamilyThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Family-Thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyThymeleafApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -407,29 +793,6 @@
       </Profilers>
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -454,39 +817,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
@@ -576,36 +906,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
@@ -668,6 +968,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -682,41 +1004,11 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -732,115 +1024,56 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="SpringFamilyRabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyRabbitmqApplication" />
-      <module name="Spring-Family-RabbitMQ" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
       <envs />
-      <method />
     </configuration>
-    <configuration default="false" name="SpringFamilyDockerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyDockerApplication" />
-      <module name="Spring-Family-Docker" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringFamilyBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyBootApplication" />
-      <module name="Spring-Family-Boot" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringFamilyServiceApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyServiceApiApplication" />
-      <module name="Spring-Family-Service-Api" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpirngFamilyRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpirngFamilyRestApplication" />
-      <module name="Spirng-Family-Rest" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringFamilyKyroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyKyroApplication" />
-      <module name="Spring-Family-Kyro" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringFamilyDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sierou.SpringFamilyDemoApplication" />
-      <module name="Spring-Family-Demo" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringFamilyServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyServiceApplication" />
-      <module name="Spring-Family-Service" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringFamilyJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.family.SpringFamilyJpaApplication" />
-      <module name="Spring-Family-Jpa" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringFamilyTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sierou.SpringFamilyTestApplication" />
-      <module name="Spring-Family-Test" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringFamilyFastdfsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sierou.SpringFamilyFastdfsApplication" />
-      <module name="Spring-Family-FastDFS" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringFamilySecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sierou.SpringFamilySecurityApplication" />
-      <module name="Spring-Family-Security" />
-      <envs />
-      <method />
-    </configuration>
-    <list size="14">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyRabbitmqApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyDockerApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyBootApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyServiceApiApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.SpirngFamilyRestApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyKyroApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyDemoApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyServiceApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyJpaApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyTestApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyFastdfsApplication" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.SpringFamilySecurityApplication" />
-      <item index="12" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyRedisApplication" />
-      <item index="13" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyElasticJobApplication" />
+    <list>
+      <item itemvalue="Spring Boot.SpringFamilyRabbitmqApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyDockerApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyBootApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyServiceApiApplication" />
+      <item itemvalue="Spring Boot.SpirngFamilyRestApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyKyroApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyDemoApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyServiceApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyJpaApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyTestApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyFastdfsApplication" />
+      <item itemvalue="Spring Boot.SpringFamilySecurityApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyThymeleafApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyShiroApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyMongdoApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyEmailApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyMybatisAutomaticApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyAsyncApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyRedisApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyElasticJobApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyMybatisApplication" />
+      <item itemvalue="Spring Boot.SpringFamilySignApplication" />
+      <item itemvalue="Spring Boot.SpringFamilyJava8Application" />
+      <item itemvalue="JUnit.SpringFamilyMybatisApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.SpringFamilyMybatisApplicationTests" />
+      <item itemvalue="Application.ProxyTest" />
+      <item itemvalue="Application.SpringFamilyTestApplicationTests" />
+      <item itemvalue="JUnit.SpringFamilyRedisApplicationTests.contextLoads" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyElasticJobApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringFamilyRedisApplication" />
+      <list>
+        <item itemvalue="JUnit.SpringFamilyRedisApplicationTests.contextLoads" />
+        <item itemvalue="Application.SpringFamilyTestApplicationTests" />
+        <item itemvalue="Application.ProxyTest" />
+        <item itemvalue="JUnit.SpringFamilyMybatisApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.SpringFamilyMybatisApplicationTests" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -868,454 +1101,391 @@
       <workItem from="1506043763542" duration="419000" />
       <workItem from="1506049013359" duration="1014000" />
       <workItem from="1506250616258" duration="1787000" />
-      <workItem from="1506259591670" duration="1656000" />
+      <workItem from="1506259591670" duration="1751000" />
+      <workItem from="1506264065546" duration="1449000" />
+      <workItem from="1506390506653" duration="23000" />
+      <workItem from="1506406040293" duration="553000" />
+      <workItem from="1506496479000" duration="4559000" />
+      <workItem from="1506504471147" duration="1754000" />
+      <workItem from="1506511041885" duration="1971000" />
+      <workItem from="1506582653390" duration="1724000" />
+      <workItem from="1506584568042" duration="6151000" />
+      <workItem from="1506610869643" duration="2920000" />
+      <workItem from="1507123849623" duration="57000" />
+      <workItem from="1507126395552" duration="829000" />
+      <workItem from="1508336654104" duration="2651000" />
+      <workItem from="1508341498377" duration="403000" />
+      <workItem from="1508341924573" duration="1138000" />
+      <workItem from="1508596253460" duration="1876000" />
+      <workItem from="1508769475183" duration="607000" />
+      <workItem from="1508826799371" duration="176000" />
+      <workItem from="1509118389998" duration="1667000" />
+      <workItem from="1509276145727" duration="5545000" />
+      <workItem from="1509460966098" duration="734000" />
+      <workItem from="1509630749787" duration="4637000" />
+      <workItem from="1509982378319" duration="694000" />
+      <workItem from="1510494212263" duration="30000" />
+      <workItem from="1510495761291" duration="258000" />
+      <workItem from="1510667231330" duration="1091000" />
+      <workItem from="1513604205996" duration="1497000" />
+      <workItem from="1515504667019" duration="1105000" />
+      <workItem from="1515505853687" duration="892000" />
+      <workItem from="1520866511545" duration="857000" />
+      <workItem from="1521633109561" duration="552000" />
+      <workItem from="1522595453923" duration="285000" />
+      <workItem from="1522595743050" duration="303000" />
+      <workItem from="1522596086142" duration="126000" />
+      <workItem from="1522831914761" duration="540000" />
+      <workItem from="1523022403280" duration="1658000" />
+      <workItem from="1523024278802" duration="2000" />
+      <workItem from="1523024626140" duration="2000" />
+      <workItem from="1523024830015" duration="7131000" />
     </task>
+    <task id="LOCAL-00001" summary="commit mongodb by sierou 🍪">
+      <created>1508339672247</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508339672247</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit mongodb by sierou 🍪">
+      <created>1508342685185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1508342685185</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit mongodb by sierou 🍪">
+      <created>1508342822989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1508342822989</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit Async by sierou 🍪">
+      <created>1509119721709</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1509119721709</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit Async by sierou 🍪">
+      <created>1509119752860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1509119752860</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit Email by sierou 🍪">
+      <created>1509289387130</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1509289387130</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit Email by sierou 🍪">
+      <created>1509289409823</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1509289409823</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit Async by sierou 🍪">
+      <created>1509289499011</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1509289499011</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit Mybatis-genarator by sierou 🍪">
+      <created>1509635034477</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1509635034478</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit RSA by sierou 🍪">
+      <created>1515507936424</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1515507936424</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SpringFamilyRedisApplicationTests_contextLoads - 2018.04.07 at 00h 11m 56s.xml">
+      <configuration name="SpringFamilyRedisApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringFamilyRedisApplicationTests_contextLoads - 2018.04.07 at 00h 16m 28s.xml">
+      <configuration name="SpringFamilyRedisApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringFamilyRedisApplicationTests_contextLoads - 2018.04.07 at 00h 16m 46s.xml">
+      <configuration name="SpringFamilyRedisApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringFamilyRedisApplicationTests_contextLoads - 2018.04.07 at 00h 17m 19s.xml">
+      <configuration name="SpringFamilyRedisApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringFamilyRedisApplicationTests_contextLoads - 2018.04.07 at 00h 19m 06s.xml">
+      <configuration name="SpringFamilyRedisApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringFamilyRedisApplicationTests_contextLoads - 2018.04.07 at 00h 21m 52s.xml">
+      <configuration name="SpringFamilyRedisApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringFamilyRedisApplicationTests_contextLoads - 2018.04.07 at 00h 23m 01s.xml">
+      <configuration name="SpringFamilyRedisApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringFamilyRedisApplicationTests_contextLoads - 2018.04.07 at 00h 24m 42s.xml">
+      <configuration name="SpringFamilyRedisApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringFamilyRedisApplicationTests_contextLoads - 2018.04.07 at 00h 25m 16s.xml">
+      <configuration name="SpringFamilyRedisApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringFamilyRedisApplicationTests_contextLoads - 2018.04.07 at 00h 25m 55s.xml">
+      <configuration name="SpringFamilyRedisApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16505000" />
+    <option name="totallyTimeSpent" value="75047000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="831" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="831" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991881" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3104435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39918256" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32833788" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6866485" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32833788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.39270386" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info id="Web" order="3" sideWeight="0.5013624" side_tool="true" weight="0.39270386" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit mongodb by sierou " />
+    <MESSAGE value="commit Email by sierou " />
+    <MESSAGE value="commit Async by sierou " />
+    <MESSAGE value="commit Mybatis-genarator by sierou " />
+    <MESSAGE value="commit RSA by sierou " />
+    <option name="LAST_COMMIT_MESSAGE" value="commit RSA by sierou " />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/config/WebMvcConfigurer.java">
+    <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/src/main/java/org/sierou/SpringFamilyRedisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="87" column="28" lean-forward="false" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/controller/result/ResultController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spirng-Family-Rest/src/main/java/org/family/controller/RestTemplateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="43" column="80" lean-forward="false" selection-start-line="43" selection-start-column="80" selection-end-line="43" selection-end-column="80" />
+        <state relative-caret-position="247">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/src/main/java/org/sierou/SpringFamilyRedisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Kyro/src/main/java/org/family/SpringFamilyKyroApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Docker/docker/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Test/src/main/java/org/sierou/aop/dynamicproxy/CblibProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Test/src/main/java/org/sierou/aop/dynamicproxy/JdkProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/JdkProxy/JdkProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/cglib/CglibMethodInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="65" lean-forward="true" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/common/CglibTarget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/SpringFamilyDemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/annotation/ControLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/annotation/ControResult.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/Aspect/ResultAspect.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/Aspect/LogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="59" column="38" lean-forward="false" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/common/CglibTargetInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/common/CglibTargetObj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/common/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/common/TargetImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/aop/service/AopService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/design/builder/HfbResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/design/DesignTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/java/org/sierou/design/builder/HfbResultBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Docker/docker极速入门.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="-749">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-RabbitMQ/src/main/java/org/family/config/RabbitMQConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-704">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-RabbitMQ/src/main/java/org/family/controller/RabbitMQController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-RabbitMQ/src/main/java/org/family/SpringFamilyRabbitmqApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#629#630#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-RabbitMQ/src/main/java/org/family/rabbitmq/HelloReceiver1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-RabbitMQ/src/main/java/org/family/rabbitmq/HelloSender1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/resources/Logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/src/main/resources/Logback-backup.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-family-elastic-job/mvnw" />
-    <entry file="file://$PROJECT_DIR$/Spring-Family-AOP/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
-          <folding />
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="1197">
+          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Spring-Family-PO/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="57">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/java/org/family/elasticjob/controller/JobController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="830">
+          <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/java/org/family/elasticjob/SpringFamilySimpleJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="22" column="56" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/java/org/family/elasticjob/SpringFamilySingleJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/resources/elastic-job/elastic-job.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/java/org/family/SpringFamilyElasticJobApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Kyro/src/main/java/org/family/serialized/SerializedProviderFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Kyro/src/main/java/org/family/serialized/Provider/KryoProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Kyro/src/test/java/org/family/SpringFamilyKyroApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Kyro/src/main/java/org/family/serialized/Serializeds.java">
+    <entry file="file://$PROJECT_DIR$/Spring-Family-PO/src/main/java/org/family/user/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-FastDFS/src/main/java/org/sierou/fastdfs/FastDFSClient.java">
+    <entry file="file://$PROJECT_DIR$/Spring-Family-PO/src/main/java/org/family/test/TestPO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="380">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Family-Elastic-Job-Lite/src/main/resources/elastic-job/elastic-job.properties">
+    <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/src/main/java/Listener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="95">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/src/main/java/org/sierou/a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///tools/repository/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="327" column="51" lean-forward="true" selection-start-line="327" selection-start-column="51" selection-end-line="327" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///tools/repository/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/connection/RedisStringCommands.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///tools/repository/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="728" column="33" selection-start-line="728" selection-start-column="33" selection-end-line="728" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/src/main/java/org/sierou/SpringFamilyRedisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///tools/repository/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/core/ValueOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///tools/repository/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar!/org/springframework/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/src/test/java/org/sierou/SpringFamilyRedisApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/src/main/java/org/sierou/redis/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1838">
+          <caret line="136" column="63" selection-start-line="136" selection-start-column="63" selection-end-line="136" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Family-Redis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1373,7 +1543,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring-Family-Elastic-Job-Lite</last-edited>
+          <last-edited>Spring-Family-PO</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

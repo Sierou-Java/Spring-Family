@@ -1,6 +1,6 @@
 package org.family;
 
-import org.family.mapper.MotorMapper;
+//import org.family.mapper.MotorMapper;
 import org.family.mapper.UserMapper;
 import org.family.pojo.MotorKey;
 import org.junit.Test;
@@ -16,15 +16,15 @@ public class SpringFamilyMybatisApplicationTests {
 	@Autowired
 	private UserMapper userMapper;
 
-	@Autowired
-	private MotorMapper motorMapper;
+//	@Autowired
+//	private MotorMapper motorMapper;
 
 	@Test
 	public void contextLoads() {
 		System.out.println(userMapper.selectByPrimaryKey(21));
-		MotorKey motorKey = new MotorKey();
-		motorKey.setId(1);
-		System.out.println(motorMapper.selectByPrimaryKey(motorKey));
+//		MotorKey motorKey = new MotorKey();
+//		motorKey.setId(1);
+//		System.out.println(motorMapper.selectByPrimaryKey(motorKey));
 	}
 
 }

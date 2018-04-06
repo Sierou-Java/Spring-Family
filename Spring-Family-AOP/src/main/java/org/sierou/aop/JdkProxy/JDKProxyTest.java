@@ -19,7 +19,7 @@ public class JDKProxyTest {
 //        Target o = (Target)Proxy.newProxyInstance(Target.class.getClassLoader(), Target.class.getInterfaces(), jdkProxy);
         /**
          * Exception in thread "main" java.lang.IllegalArgumentException:
-         * org.sierou.aop.common.TargetImpl is not an interface
+         * org.sierou.aop.common.TargetImpl is not an service
          */
 //        Target o = (Target)Proxy.newProxyInstance(Target.class.getClassLoader(), new Class[]{TargetImpl.class}, jdkProxy);
         o.execute();

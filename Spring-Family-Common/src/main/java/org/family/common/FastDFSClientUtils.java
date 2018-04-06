@@ -1,9 +1,10 @@
 package org.family.common;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
 import org.csource.common.NameValuePair;
 import org.csource.fastdfs.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 
@@ -19,7 +20,7 @@ public class FastDFSClientUtils {
 
 	private static final String CONF_FILENAME = Thread.currentThread().getContextClassLoader().getResource("fastdfs_client.conf").getPath();
 
-	private static Logger logger = Logger.getLogger(FastDFSClientUtils.class);
+	private static Logger logger = LoggerFactory.getLogger(FastDFSClientUtils.class);
 
 	
 	private static TrackerClient trackerClient;
@@ -32,7 +33,7 @@ public class FastDFSClientUtils {
 			TrackerGroup trackerGroup = ClientGlobal.g_tracker_group;
 			trackerClient = new TrackerClient(trackerGroup);
 		} catch (Exception e) {
-			logger.error(e);
+			logger.error(e.getMessage());
 		}
 	}
 	
@@ -68,14 +69,14 @@ public class FastDFSClientUtils {
 			
 			return fileid;
 		} catch (Exception ex) {
-			logger.error(ex);
+			logger.error(ex.getMessage());
 			return null;
 		}finally{
 			if (fis != null){
 				try {
 					fis.close();
 				} catch (IOException e) {
-					logger.error(e);
+					logger.error(e.getMessage());
 				}
 			}
 			if (storageServer != null){
@@ -119,7 +120,7 @@ public class FastDFSClientUtils {
 			String fileid = storageClient1.upload_file1(data, extName, meta_list);
 			return fileid;
 		} catch (Exception ex) {
-			logger.error(ex);
+			logger.error(ex.getMessage());
 			return null;
 		}finally{
 			if (storageServer != null){
@@ -161,7 +162,7 @@ public class FastDFSClientUtils {
 			InputStream inputStream = new ByteArrayInputStream(bytes);
 			return inputStream;
 		} catch (Exception ex) {
-			logger.error(ex);
+			logger.error(ex.getMessage());
 			return null;
 		} finally {
 			if (storageServer != null){
@@ -202,7 +203,7 @@ public class FastDFSClientUtils {
 			int result = storageClient1.delete_file1(fileId);
 			return result;
 		} catch (Exception ex) {
-			logger.error(ex);
+			logger.error(ex.getMessage());
 			return 0;
 		} finally {
 			if (storageServer != null){
@@ -245,7 +246,7 @@ public class FastDFSClientUtils {
 				return null;
 			}
 		} catch (Exception ex) {
-			logger.error(ex);
+			logger.error(ex.getMessage());
 			return null;
 		}
 		return fileid;

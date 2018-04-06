@@ -8,7 +8,9 @@
  */
 package org.family.common;
 
-import org.apache.log4j.Logger;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.Timestamp;
 import java.text.ParseException;
@@ -46,7 +48,7 @@ public class DateUtils extends org.apache.commons.lang.time.DateUtils {
 	 */
 	public final static int COMP_MODEL_DATETIME = 3;
 
-	private static Logger logger = Logger.getLogger(DateUtils.class);
+	private static Logger logger = LoggerFactory.getLogger(DateUtils.class);
 
 	/**
 	 * 要用到的DATE Format的定义
@@ -76,7 +78,7 @@ public class DateUtils extends org.apache.commons.lang.time.DateUtils {
 		try {
 			return parseDate(str, new String[] { parsePatterns });
 		} catch (ParseException e) {
-			logger.error(e);
+			logger.error(e.getMessage());
 			return null;
 		}
 	}
@@ -525,7 +527,7 @@ public class DateUtils extends org.apache.commons.lang.time.DateUtils {
 		try {
 			sRet = formatter.format(dt).toString();
 		} catch (Exception e) {
-			logger.error(e);
+			logger.error(e.getMessage());
 			sRet = null;
 		}
 
@@ -965,7 +967,7 @@ public class DateUtils extends org.apache.commons.lang.time.DateUtils {
 		try {
 			date = sdf.parse(dateString);
 		} catch (ParseException e) {
-			logger.error(e);
+			logger.error(e.getMessage());
 		}
 		return date;
 	}
@@ -993,7 +995,7 @@ public class DateUtils extends org.apache.commons.lang.time.DateUtils {
 		try {
 			date1 = sdf.parse(dateStr);
 		} catch (ParseException e) {
-			logger.error(e);
+			logger.error(e.getMessage());
 		}
 		return date1;
 	}
@@ -1205,7 +1207,7 @@ public class DateUtils extends org.apache.commons.lang.time.DateUtils {
 		try {
 			return formatter.parse(dateStr);
 		} catch (ParseException e) {
-			logger.error(e);
+			logger.error(e.getMessage());
 			return null;
 		}
 	}

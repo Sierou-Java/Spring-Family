@@ -20,27 +20,27 @@
     <reg:zookeeper id="regCenter" server-lists="${serverLists}" namespace="${namespace}" base-sleep-time-milliseconds="${baseSleepTimeMilliseconds}" max-sleep-time-milliseconds="${maxSleepTimeMilliseconds}" max-retries="${maxRetries}" />
 
     <!-- 分片 	-->
-    <!--<job:simple id="springFamilySimpleJob"-->
-                <!--class="${springFamilySimpleJob.class}"-->
-                <!--registry-center-ref="regCenter"-->
-                <!--sharding-total-count="${springFamilySimpleJob.shardingTotalCount}"-->
-                <!--cron="${springFamilySimpleJob.cron}"-->
-                <!--sharding-item-parameters="${springFamilySimpleJob.shardingItemParameters}"-->
-                <!--monitor-execution="${springFamilySimpleJob.monitorExecution}"-->
-                <!--failover="${springFamilySimpleJob.failover}"-->
-                <!--description="${springFamilySimpleJob.description}"-->
-                <!--disabled="${springFamilySimpleJob.disabled}"-->
-                <!--overwrite="${springFamilySimpleJob.overwrite}"/>-->
-    <!-- 单片 -->
-    <job:simple id="springFamilySingleJob"
-                class="${springFamilySingleJob.class}"
+    <job:simple id="SpringFamilySimpleJob"
+                class="${springFamilySimpleJob.class}"
                 registry-center-ref="regCenter"
-                sharding-total-count="${springFamilySingleJob.shardingTotalCount}"
-                cron="${springFamilySingleJob.cron}"
-                sharding-item-parameters="${springFamilySingleJob.shardingItemParameters}"
-                monitor-execution="${springFamilySingleJob.monitorExecution}"
-                failover="${springFamilySingleJob.failover}"
-                description="${springFamilySingleJob.description}"
-                disabled="${springFamilySingleJob.disabled}"
-                overwrite="${springFamilySingleJob.overwrite}"/>
+                sharding-total-count="${springFamilySimpleJob.shardingTotalCount}"
+                cron="${springFamilySimpleJob.cron}"
+                sharding-item-parameters="${springFamilySimpleJob.shardingItemParameters}"
+                monitor-execution="${springFamilySimpleJob.monitorExecution}"
+                failover="${springFamilySimpleJob.failover}"
+                description="${springFamilySimpleJob.description}"
+                disabled="${springFamilySimpleJob.disabled}"
+                overwrite="${springFamilySimpleJob.overwrite}"/>
+    <!-- 单片 -->
+    <!--<job:simple id="springFamilySingleJob"-->
+                <!--class="${springFamilySingleJob.class}"-->
+                <!--registry-center-ref="regCenter"-->
+                <!--sharding-total-count="${springFamilySingleJob.shardingTotalCount}"-->
+                <!--cron="${springFamilySingleJob.cron}"-->
+                <!--sharding-item-parameters="${springFamilySingleJob.shardingItemParameters}"-->
+                <!--monitor-execution="${springFamilySingleJob.monitorExecution}"-->
+                <!--failover="${springFamilySingleJob.failover}"-->
+                <!--description="${springFamilySingleJob.description}"-->
+                <!--disabled="${springFamilySingleJob.disabled}"-->
+                <!--overwrite="${springFamilySingleJob.overwrite}"/>-->
 </beans>

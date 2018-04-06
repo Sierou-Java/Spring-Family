@@ -25,7 +25,7 @@ public class ResultAspect {
 
     // 定义切点
     @Pointcut("@annotation(org.sierou.aop.annotation.ControResult)")
-    // "execution(* com.sierou.repository..*(..)) && @annotation(xxx)"
+    // "execution(* com.sierou.dao..*(..)) && @annotation(xxx)"
     private void pointCut(){};
 
 
